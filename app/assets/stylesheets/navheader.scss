@@ -1,0 +1,353 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+.menuheader {
+  color:#666666;
+}
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+.colorblack {
+  color:#666666
+}
+.grcolor{
+  color:#C7E5B4;
+}
+.titlecolor{
+  color:#73be44;
+}
+.sizecaruselbutton{
+  width:12rem;
+}
+.backgreen{
+  background-color:#73be44;
+}
+.btn-outline-secondary{
+border-color:white
+}
+
+.logotext{
+  display: none;
+}
+.navbar {
+  background-color:white
+}
+.colorgreen{
+  background-color:#73be44;
+  width: auto;
+  display: block;
+  padding:0.3rem;
+}
+.cont{
+  width: auto;
+
+  background-color:white ;
+}
+.btn-sm{
+  margin-left:1rem;
+  width: 10rem;
+  border-color: #C7E5B4;
+}
+.email {
+ font-size:1.15rem;
+}
+.bg-light{
+  background-color: white
+}
+.call{
+
+}
+body {
+
+  // padding-bottom: 3rem;
+  color: #5a5a5a;
+  background-color:white;
+}
+main {
+  // margin-top:0.5em;
+}
+header nav ul li a {
+  font-size:12px;
+}
+header nav ul li a:hover {
+  color:#73be44
+}
+header{
+  border-bottom: solid 1px #73be44
+}
+.titlecarusel{
+  font-size:5.3em;
+  font-weight: bold;
+}
+.titleback{
+  color:#666666;
+  position: relative;
+  bottom:25px;
+  height:4rem;
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+  padding:1rem;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+   margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  background-color: #777;
+}
+.carousel-item > img {
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  height:30em;
+  min-width: 100%;
+
+}
+.smallimg {
+  display:none;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 33.9em) {
+  /* Bump up size of carousel content */
+  .carousel-caption {
+    font-size:0.5rem;
+  }
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+// @media (min-width: 33.9em) {
+//   .carousel-item {
+//     min-height: 15rem;
+//     background-color: #777;
+//   }
+//   .carousel-item > img {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     min-width: 100%;
+//     min-height: 15rem;
+//   }
+// }
+
+
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+/* Smartphones (вертикальная и горизонтальная ориентация) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .carousel-caption {
+    font-size:0.5rem;
+  }
+  // .carousel-caption h1 {
+  //   display: none;
+  // }
+  .carousel {
+    // margin-top: 4rem;
+  }
+  .carousel-item > img {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    min-width: 80%;
+    height:300px;
+  }
+  .calla{
+    display: none;
+  }
+  .email {
+    font-size:0.8rem;
+   }
+   .call{
+    font-size:0.8rem;
+   }
+   .logoimg{
+     display: none;
+   }
+   .logotext{
+     display: block;
+     font-family: "Raleway", Arial, sans-serif;
+     font-weight:bold;
+   }
+   .smallimg {
+     display:block;
+   }
+   .titlecarusel{
+     font-size:2em;
+   }
+   .titleback{
+    color:#666666;
+    position: relative;
+    bottom:17px;
+    height:2.5rem;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    padding:1rem;
+  }
+  .sizecaruselbutton{
+    width: 10em;
+    font-size:1.5em;
+  }
+  }
+
+  /* Smartphones (горизонтальная) ----------- */
+  @media only screen and (min-width: 321px) {
+
+  }
+
+  /* Smartphones (вертикальная) ----------- */
+  @media only screen and (max-width: 320px) {
+  /* стили */
+  }
+
+  /* iPads (вертикальная и горизонтальная) ----------- */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .calla{
+      display: none;
+    }
+  }
+
+  /* iPads (горизонтальная) ----------- */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* стили */
+  }
+
+  /* iPads (вертикальная) ----------- */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /* стили */
+  }
+
+  /* iPad 3**********/
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* стили */
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* стили */
+  }
+
+  /* Настольные компьютеры и ноутбуки ----------- */
+  @media only screen  and (min-width: 1224px) {
+  /* стили */
+  }
+
+  /* Большие экраны ----------- */
+  @media only screen  and (min-width: 1824px) {
+  /* стили */
+  }
+
+  /* iPhone 4 ----------- */
+  @media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* стили */
+  }
+  @media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* стили */
+  }
+
+  /* iPhone 5 ----------- */
+  @media only screen and (min-width: 320px) and (max-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2){
+  /* стили */
+  }
+  @media only screen and (min-width: 320px) and (max-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2){
+  /* стили */
+  }
+
+  /* iPhone 6 ----------- */
+  @media only screen and (min-width: 375px) and (max-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2){
+    .calla{
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2){
+  /* стили */
+  }
+
+  /* iPhone 6+ ----------- */
+  @media only screen and (min-width: 414px) and (max-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2){
+  /* стили */
+  }
+  @media only screen and (min-width: 414px) and (max-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2){
+  /* стили */
+  }
+
+  /* Samsung Galaxy S3 ----------- */
+  @media only screen and (min-width: 320px) and (max-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2){
+  /* стили */
+  }
+  @media only screen and (min-width: 320px) and (max-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2){
+  /* стили */
+  }
+
+  /* Samsung Galaxy S4 ----------- */
+  @media only screen and (min-width: 320px) and (max-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3){
+  /* стили */
+  }
+  @media only screen and (min-width: 320px) and (max-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3){
+  /* стили */
+  }
+
+  /* Samsung Galaxy S5 ----------- */
+  @media only screen and (min-width: 360px) and (max-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3){
+  /* стили */
+  }
+  @media only screen and (min-width: 360px) and (max-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3){
+  /* стили */
+  }
